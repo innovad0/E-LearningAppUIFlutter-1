@@ -1,5 +1,6 @@
 import 'package:elearning_platform_demo/pages/course_detail_page.dart';
 import 'package:elearning_platform_demo/pages/home_page.dart';
+import 'package:elearning_platform_demo/pages/videoTest.dart';
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
 
@@ -27,7 +28,7 @@ class _MainTabBarPageState extends State<MainTabBarPage> {
 
   static List<Widget> tabBarPages = [
     const HomePage(),
-    const HomePage(),
+    VideoTestPage(),
     const HomePage(),
     const HomePage(),
     const HomePage(),
